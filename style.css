@@ -1106,6 +1106,15 @@ section #bloc-7.bloc.bgc-white.l-bloc .container.bloc-lg .row .col-sm-6 p
     margin-inline-start: 12em;
     font-size: 1em;
 }
+
+@media (max-width: 400px)
+{
+    section #bloc-7.bloc.bgc-white.l-bloc .container.bloc-lg .row .col-sm-6 p
+    {
+    margin-inline-start: 4em;    
+    }
+}
+
 section #bloc-2-services.bloc.bgc-white.l-bloc .container.bloc-md .row .col-sm-12.text-center, section #bloc-4-portfolio.bloc.bgc-white.bg-lines-h2-bg.bg-repeat.l-bloc .container.bloc-lg .row .col-sm-12.text-center
 {
     font-size: 1.7em;
