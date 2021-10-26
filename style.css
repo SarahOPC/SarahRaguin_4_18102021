@@ -1133,3 +1133,11 @@ section #bloc-5-cta.bloc.bgc-dark-slate-blue.bg-banniere.d-bloc.bloc-bg-texture.
     font-size: 2em;
     text-shadow: 3px 2px 2px darkorange;
 }
+
+@media (max-width: 760px)
+{
+    article .col-sm-6 a img.img-responsive.portfolio-thumb
+    {
+        margin-left: 10%;
+    }
+}
