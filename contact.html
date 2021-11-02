@@ -85,8 +85,7 @@
 					<div class="container bloc-lg">
 						<div class="row">
 							<div class="col-sm-6">
-								<form id="form_1" novalidate success-msg="Your message has been sent."
-									fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+								<form id="form_1">
 									<div class="form-group">
 										<label for="name">
 											Merci d'entrer votre prénom et nom
@@ -99,10 +98,10 @@
 											Merci d'entrer votre adresse email
 										</label>
 										<input type="email" id="email" name="email" placeholder="johndoe@mail.com"
-											class="form-control" type="email" required />
+											class="form-control" required />
 									</div>
-									<div class="form-group" required>
-										<label for="Origin" id="Origin">
+									<div class="form-group">
+										<label id="Origin">
 											Comment nous avez-vous connu ?
 										</label><br>
 										<input type="checkbox" id="Relations" name="Relations" value="Relations"
@@ -110,20 +109,20 @@
 										<label for="Relations"> Relations</label><br>
 										<input type="checkbox" id="Internet" name="Internet" value="Internet">
 										<label for="Internet"> Internet</label><br>
-										<input type="checkbox" id="Journaux locaux" name="Journaux locaux"
-											value="Journaux locaux">
-										<label for="Journaux locaux"> Journaux locaux</label><br>
+										<input type="checkbox" id="Journauxlocaux" name="Journauxlocaux"
+											value="Journauxlocaux">
+										<label for="Journauxlocaux"> Journaux locaux</label><br>
 										<input type="checkbox" id="Autres" name="Autres" value="Autres">
 										<label for="Autres"> Autres</label><br>
 									</div>
-									<div class="form-group" required>
-										<label for="Brief" id="Brief">
+									<div class="form-group">
+										<label id="Brief">
 											Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 										</label><textarea id="message" class="form-control" rows="4" cols="50"
 											required></textarea>
 									</div>
 									<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
-										type="submit" form="formular1" value="Envoyer">
+										type="submit" value="Envoyer" name="form_1">
 										Envoyer
 									</button>
 								</form>
