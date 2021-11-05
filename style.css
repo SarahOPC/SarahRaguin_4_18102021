@@ -1135,3 +1135,8 @@ section #bloc-5-cta.bloc.bgc-dark-slate-blue.bg-banniere.d-bloc.bloc-bg-texture.
         margin-left: 10%;
     }
 }
+
+.page-container main section h2
+{
+    text-align: center;
+}
